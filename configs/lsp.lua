@@ -13,7 +13,7 @@ end
 
 -- Elixir
 lspconfig.elixirls.setup {
-  cmd = { "/home/andre/Development/elixir-ls/language_server.sh" }
+  cmd = { "/home/andre/Development/elixir-ls/scripts/language_server.sh" }
 }
 
 lspconfig.tailwindcss.setup {

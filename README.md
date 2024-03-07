@@ -6,5 +6,5 @@ This repo contains my custom config for [NvChad](https://nvchad.com). It's still
 
 1. Install [NvChad](https://nvchad.com/docs/quickstart/install)
 
-2. Copy the contents of this repo to `~/config/.nvim/lua/custom/`
+2. Copy the contents of this repo to `~/.config/nvim/lua/custom/`
 
