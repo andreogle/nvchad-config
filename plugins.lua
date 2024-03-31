@@ -1,6 +1,8 @@
 local plugins = {
   { "Pocco81/auto-save.nvim", lazy = false },
 
+  { "David-Kunz/gen.nvim", lazy = false },
+
   {
     "neovim/nvim-lspconfig",
      dependencies = {

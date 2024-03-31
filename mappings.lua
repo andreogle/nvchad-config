@@ -13,14 +13,20 @@ M.custom = {
     ["<leader>rr"] = { ":NvimTreeFindFile<CR>", "Find the current file in nvim-tree" },
     ["<leader>s"] = { ":vsplit<CR>", "Split buffer vertically" },
 
+    ["<space>oc"] = { ":Gen Chat<CR>", "Chat with Ollama" },
+
     ["<C-b>"] = { "i<CR><Esc>l", "Move everything after the cursor to the next line" },
     ["<C-p>"] = { "<cmd> Telescope find_files <CR>", "Find files" },
-    ["<C-x>"] = { ":nohl<CR><C-l>", "Clear search highlighting" },
+    ["<C-x>"] = { ":nohl<CR><C-l>", "Clear search highlighting" }
   },
 
   v = {
     ["<"] = { "<gv", "Shift content to the left" },
-    [">"] = { ">gv", "Shift content to the right" }
+    [">"] = { ">gv", "Shift content to the right" },
+
+    ["<space>oa"] = { ":Gen Ask<CR>", "Ask Ollama" },
+    ["<space>or"] = { ":Gen Review_Code<CR>", "Review code with Ollama" },
+    ["<space>og"] = { ":Gen Generate<CR>", "Generate with Ollama" },
   },
 }
 
